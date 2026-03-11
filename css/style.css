@@ -39,3 +39,10 @@ li {
     background-color: #f8d7da;
     border: 1px solid #dc3545;
 }
+
+li p {
+
+    margin:0;
+    padding:0;
+
+}
