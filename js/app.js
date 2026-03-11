@@ -164,6 +164,18 @@ btnFormulario.addEventListener("click", () => {
     mostrarFormulario()
 
 })
+// Mostrar la hora al iniciar
+mostrarHora(reloj)
+
+// actualizar cada 30 segundos
+setInterval(() => {
+
+    mostrarHora(reloj)
+
+    renderizar()
+
+}, 15000)
+
 
 // ========================
 // Renderizar lista
@@ -262,17 +274,6 @@ function renderizar() {
 }
 
 
-// Mostrar la hora al iniciar
-mostrarHora(reloj)
-
-// actualizar cada 30 segundos
-setInterval(() => {
-
-    mostrarHora(reloj)
-
-    renderizar()
-
-}, 15000)
 
 // ========================
 // Eventos de botones
